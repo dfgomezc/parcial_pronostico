@@ -1,1 +1,3 @@
-# parcial_pronostico
+# Notebooks de modelos para generar el pronóstico de la serie META
+
+Este repositorio corresponde a los notebook usados en Kaggle para los modelos MARS y SSA. Los notebook en Python para los modelos RandomForest y LSTM. En el notebook de MARS se encuentran las métricas de error y las gráficas de los pronósticos con los datos de prueba. Para el grid_search de random forest el número de lags se dejó en 10, al generar iteraciones desde 1, el mejor modelo se definía como aquel que usaba un solo rezago junto con profundidades y parámetros de la combinación. Al ver las respuestas del parcial se hizo este cambio de 10 lags en el Random Forest.
